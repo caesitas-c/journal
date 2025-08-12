@@ -940,11 +940,11 @@ function SubmitPage() {
               style={{borderColor: "var(--line)", background: "var(--card)", color: "var(--text)"}}
               value={formData.content}
               onChange={(e) => handleInputChange("content", e.target.value)}
-              placeholder={submitType === "quick" ? "What does this fragment prove about how we live?" : "Paste your complete work here. For works requiring special formatting (Poetry, Comics, New Genre, formatted Slash Fiction), describe your work and mention file attachments."}
+              placeholder={submitType === "quick" ? "What does this fragment prove about how we live?" : "Paste your complete work here."}
             />
             {submitType === "full" && (
               <div className="text-xs muted mt-1">
-                For visual works or works requiring special formatting: describe your submission here and attach files below.
+                For works with special visual elements: describe your submission here and attach files below.
               </div>
             )}
           </div>
@@ -969,7 +969,7 @@ function SubmitPage() {
                 </div>
               </div>
               <div className="text-xs muted mt-2">
-                <strong>Required for:</strong> Poetry with special formatting, Comics, New Genre works, and Slash Fiction with unique layout.
+                <strong>Required for:</strong> Comics, New Genre works, and Poetry/Slash Fiction with unique layout.
               </div>
             </div>
           )}
