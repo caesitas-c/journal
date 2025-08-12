@@ -426,7 +426,7 @@ function IssuesPage() {
             <li>This might be the most important, most difficult sentence on that page.</li>
           </ol>
           
-          <p>Then it suddenly occurred to me: if I remembered my wife reading an instruction manual, but later both the manual and my wife had vanished, the experience would become utterly terrifying, because I'd have no evidence to confirm it as real.</p>
+          <p>Then it suddenly occurred to me: if I remembered my wife reading an instruction manual, but later both the manual and my wife had vanished, the experience would become utterly terrifying, because because memory without proof is nothing but madness.</p>
         </div>
       )
     },
@@ -446,7 +446,7 @@ function IssuesPage() {
               <div className="card p-4">
                 <div className="aspect-square bg-gray-200 mb-3 rounded overflow-hidden" style={{backgroundColor: "var(--bg-muted)"}}>
                   <div className="w-full h-full flex items-center justify-center text-xs muted">
-                    [Image 1: Lacewing on Poster]
+                    [img src="/images/minor-animisms/minor-animisms-1.jpg" alt="Lacewing on Poster" className="w-full h-full object-cover" />]
                   </div>
                 </div>
                 <h4 className="font-medium mb-2">1. Lacewing on Poster</h4>
